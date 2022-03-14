@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(#131721, #131721 50%, #fff 50%, #fff 100%);
+
+	div.card {
+		position: relative;
+		width: 600px;
+		height: 380px;
+		background: #000;
+
+		div.imgBox {
+			position: relative;
+			min-width: 300px;
+			height: 100%;
+			background: #fff;
+		}
+	}
+}
